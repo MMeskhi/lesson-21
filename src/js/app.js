@@ -1,4 +1,18 @@
-const socket = new WebSocket("ws://ucha.ge:8084");
+// const socket = new WebSocket("ws://ucha.ge:8084");
+
+// let isSocketConnected = false;
+
+// socket.addEventListener("open", function (event) {
+//   isSocketConnected = true;
+// });
+
+// function sendMessage(message) {
+//   if (isSocketConnected) {
+//     socket.send(JSON.stringify(message));
+//   } else {
+//     console.log("WARNING: We are not connected to the WebSocket yet");
+//   }
+// }
 
 // let table = document.getElementsByTagName("table")[0];
 // let td = table.getElementsByTagName("td");
