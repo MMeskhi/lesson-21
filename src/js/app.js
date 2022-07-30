@@ -75,4 +75,11 @@ for (let i = 0; i < cell.length; i++) {
     element.style.backgroundColor = myColor;
     console.log("clicked cell");
   });
+
+  let btn = document.getElementById("btn");
+
+  btn.addEventListener("click", () => {
+    element.style.backgroundColor = "";
+    console.log("Reset");
+  });
 }
